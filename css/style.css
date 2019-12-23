@@ -1,0 +1,45 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+  #nav-bar {
+    display: table;
+    float: right;
+    width: 40%;
+    height: 35px;
+    margin: 10px 10px 0px 0px;
+  }
+
+  ul, ol, li {
+    list-style: none;
+}
+
+.nav-link {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center; 
+}
+
+#header-img {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center; 
+}
+
+#form {
+    display: flexbox;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
